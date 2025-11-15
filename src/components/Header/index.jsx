@@ -1,7 +1,10 @@
+import logo from "../../assets/logo.png"
+import "./header.css"
+
 function Header(){
     return(
         <header>
-            <img src="" alt="logo marca da pagina" />
+            <img src={logo} alt="logo marca da pagina" class="header-img" />
             <ul>
                 <li>LOOKS</li>
                 <li>LANÇAMENTOS</li>
