@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.lancamento {
+    width: 80%;
+    height: 850px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+.principal {
+    position: relative;
+    height: 550px;
+    width: 90%;
+    margin-top: 5rem;
+    margin-left: 5%;
+    display: flex;
+}
+
+.batons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+
+    img {
+        width: 170px;
+    }
+}
+
+.img-principal {
+    margin-left: 2rem;
+    margin-right: 5rem;
+
+    img {
+        height: 100%;
+    }
+}
+
+.interativo {
+    width: 40%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    img {
+        width: 150px;
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+    }
+    h1{
+        margin-top: -2rem;
+        text-align: start;
+        padding-left: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    #cores{
+        padding-left: 1.5rem;
+        margin-top: -2rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    h2{
+        text-align: start;
+        padding-left: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        padding-top: 1.5rem;
+        font-size: 26px;
+    }
+    #descric{
+        padding-left: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        width: 95%;
+        padding-top: 1rem;
+    }
+}
+
+.cores{
+     img{
+        width: 100px;
+     }
+     button{
+        border: none;
+        background: none;
+        cursor: pointer;
+     }
+}
+
