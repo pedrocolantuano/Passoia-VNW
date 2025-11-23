@@ -27,4 +27,10 @@ h1 {
 }
 .card img {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 40%;
+  }
 }/*# sourceMappingURL=looks.css.map */

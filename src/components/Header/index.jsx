@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png"
+import menu from "../../assets/menu.png"
 import "./header.css"
 
 function Header(){
@@ -10,7 +11,7 @@ function Header(){
                 <li>LANÇAMENTOS</li>
                 <li>NOVIDADES</li>
             </ul>
-
+            <img id="menu"src={menu} alt="ícone de menu"/>
         </header>
     )
 }

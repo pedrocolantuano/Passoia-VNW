@@ -49,26 +49,29 @@ footer {
             padding-bottom: 1rem;
         }
 
-        img{
+        img {
             margin-top: -2rem;
             width: 90px;
         }
-        #visa{
+
+        #visa {
             position: relative;
-            top: 22px; 
+            top: 22px;
             margin-left: 16px;
             margin-right: 16px;
         }
-        #boleto{
+
+        #boleto {
             margin-top: 1.5rem;
         }
     }
 
-    .sociais{
+    .sociais {
         width: 400px;
         margin-top: 6rem;
         margin-left: 16rem;
-        h1{
+
+        h1 {
             font-family: "Roboto", sans-serif;
             font-size: 24px;
             align-items: start;
@@ -78,10 +81,51 @@ footer {
             color: #2D2D2D;
             padding-bottom: 1rem;
         }
-        .icons-sociais{
+
+        .icons-sociais {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
         }
     }
+
+    @media (max-width: 768px) {
+        height: 400px;
+        .footer-geral {
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: auto;
+        }
+
+        .atendimento,
+        .pagamento{
+            width: 50%;
+            margin-top: 3rem;
+            margin-left: 0;
+            h1{
+                font-size: 20px;
+            }
+            .p-atendimento{
+                font-size: 16px;
+            }
+        }
+        .sociais{
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+        .pagamento{
+            .icons-pagamento{
+                width: 85%;
+            }
+            margin-left: -10%;
+            img{
+                width: 25%;
+            }
+        }
+
+        .atendimento{
+            padding-left: 2rem;
+        }
+    }
+
 }

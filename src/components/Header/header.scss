@@ -34,3 +34,23 @@ ul{
     }
 
 }
+
+#menu{
+    display: none;
+}
+
+
+@media (max-width : 768px){
+    #menu{
+        position: absolute;
+        display:block;
+        width: 7.5%;
+        right: 0;
+        margin-right: 5%;
+        top: 40%;
+    }
+    ul{
+        display: none;
+    }
+    
+}

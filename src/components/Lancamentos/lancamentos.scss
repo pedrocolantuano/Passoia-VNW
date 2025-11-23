@@ -96,3 +96,48 @@ h2 {
      }
 }
 
+@media (max-width: 768px){
+    .lancamento{
+        h2{
+            font-size: 20px;
+            padding-bottom: 0.5rem;
+        }
+    }
+
+    .batons{
+        display: none;
+    }
+    .principal{
+        display: block;
+        margin: 0;
+    }
+    .interativo{
+        width: 100%;
+        text-align: center;
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        #cores{
+            font-size: 12px;
+        }
+    }
+    .img-principal{
+        margin: 0;
+        text-align: center;
+    }
+
+    .cores{
+        img{
+            width: 75%;
+            padding: 0;
+            //padding-left: 0.3rem;
+            border: 2px solid #D8D8D8;
+            border-radius: 50%;
+            margin-top: 1rem;
+        }
+    }
+}
+

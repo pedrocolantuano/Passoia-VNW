@@ -74,4 +74,44 @@ footer .sociais .icons-sociais {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+}
+@media (max-width: 768px) {
+  footer {
+    height: 400px;
+  }
+  footer .footer-geral {
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+  }
+  footer .atendimento,
+  footer .pagamento {
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  footer .atendimento h1,
+  footer .pagamento h1 {
+    font-size: 20px;
+  }
+  footer .atendimento .p-atendimento,
+  footer .pagamento .p-atendimento {
+    font-size: 16px;
+  }
+  footer .sociais {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  footer .pagamento {
+    margin-left: -10%;
+  }
+  footer .pagamento .icons-pagamento {
+    width: 85%;
+  }
+  footer .pagamento img {
+    width: 25%;
+  }
+  footer .atendimento {
+    padding-left: 2rem;
+  }
 }/*# sourceMappingURL=footer.css.map */
